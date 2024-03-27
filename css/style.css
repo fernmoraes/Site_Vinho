@@ -1,8 +1,107 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
 body {
-    background-image: linear-gradient(90deg, #7D7F88 0%, #2D313F 100%);
+    background-image: linear-gradient(to right, #7D7F88 0%, #2D313F 100%);
+    width: 1280px;
+    height: 720px;
+    overflow: hidden;
+}
+#hl2 {
+    width: 268px;
+    height: 1px;
+    left: 310px;
+    gap: 0px;
+    transform: rotate(90deg);
+    background: #AFAFAF;
+    position: relative;
+}
+#hl1 {
+    width: 1500px;
+    height: 1px;
+    top: 133px;
+    gap: 0px;
+    background: #AFAFAF;
+    position: relative;
+}
+#logo {
+    width: 228px;
+    height: 96px;
+    top: 0px;
+    left: 100px;
+    position: relative;
+    background: url(/img/fnwine_logo2.png) 0% / cover no-repeat;
+}
+#aboutus {
+    width: 88px;
+    height: 24px;
+    top: 65px;
+    left: 540px;   
+    color: #BEBEBE;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+#wines {
+    width: 58px;
+    height: 24px;
+    top: 65px;
+    left: 689px;    
+    color: #BEBEBE;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+#ourstory {
+    width: 91px;
+    height: 24px;
+    top: 65px;
+    left: 828px;     
+    color: #BEBEBE;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+#contacts {
+    width: 86px;
+    height: 24px;
+    top: 65px;
+    left: 1000px;   
+    color: #BEBEBE;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+#linhavinho {
+    width: 286.83px;
+    height: 430.25px;
+    top: 105px;
+    left: 870px;
+    transform: rotate(-7deg);
+    border: 2px solid #AFAFAF;
+    background: rgba(217, 217, 217, 0.00);
+    position: relative;
+}
+#vinhoproduto {
+    width: 287px;
+    height: 431px;
+    bottom: 330px;
+    left: 875px;
+    gap: 0px;
+    opacity: 0px;
+    background: url(/img/vinho_produto.jpg) 0% / cover no-repeat;
+    position: relative;
 }

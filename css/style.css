@@ -4,9 +4,11 @@
 }
 body {
     background-image: linear-gradient(to right, #777b80 0%, #32353f 100%);
-    width: 1280px;
-    height: 720px;
     overflow: hidden;
+}
+#main {
+    width: 150%;
+    height: 150%;
 }
 #hl2 {
     width: 268px;
